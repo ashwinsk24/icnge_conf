@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICNGE 2024</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="register.html">REGISTRATION</a></li>
+                    <li><a href="contact.html">CONTACT US </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Registration</h1>
+    </section>
+
+    <!-- about content -->
+
+    <section class="course">
+        <h1>REGISTRATION FEE</h1>
+        <br />
+        <p>
+            The Kochi Chapter of the Indian Geotechnical Society invites all
+            individuals and organizations engaged in the advancement and novel
+            applications of Geotechnical Engineering to share their experiences at
+            the International Conference on Novelties in Geotechnical Engineering.
+        </p>
+        <br />
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Delegate Category</th>
+                    <th scope="col">Indian Delegates (INR)</th>
+                    <th scope="col">Foreign Delegates (USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Category">IGS Member</td>
+                    <td data-label="Date">3000</td>
+                    <td data-label="Date">150</td>
+                </tr>
+                <tr>
+                    <td scope="row" data-label="Category">Non IGS Member</td>
+                    <td data-label="Date">3500</td>
+                    <td data-label="Date">200</td>
+                </tr>
+                <tr>
+                    <td scope="row" data-label="Category">Student</td>
+                    <td data-label="Date">1500</td>
+                    <td data-label="Date">100</td>
+                </tr>
+            </tbody>
+        </table>
+        <br /><br />
+
+
+        <div class="reg">
+            <li>
+                All the registered papers for the conference will be considered for publication in Scopus
+                indexed conference proceedings.
+            </li>
+            <li>Only papers that meet the publisher’s quality and ethics standards will be published.</li>
+            <li>Article processing charges if any, shall be borne by the author.</li>
+            <li>Click below to submit your abstract.</li>
+        </div>
+
+
+
+        <br><br>
+
+
+        <a href="https://bit.ly/ICNGE2024" target="_blank" rel="noopener" class="hero-btn red-btn">Submit Now</a>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam
+            voluptatum vero nisi magnam eius ex voluptatibus? <br />Natus nobis,
+            perferendis error dolorum repellendus corporis debitis nisi incidunt
+            alias officiis non!
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by CSE'24</p>
+    </section>
+
+    <!-- -------JS for Menu Toggle----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
