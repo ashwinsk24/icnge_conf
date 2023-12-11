@@ -34,8 +34,13 @@
                 <br />
                 ICNGE 2024
             </h1>
+
+            <div class="logo">
+                <img src="images/igslogo.jpg" alt="" />
+                <img src="images/ssetlogo.png" alt="" />
+            </div>
+
             <p>
-                <br /><br />
                 <i class="fa fa-calendar"></i>
                 &nbsp;25th - 26th April, 2024
                 <br /><br />
@@ -106,7 +111,7 @@
             <tbody>
                 <tr>
                     <td data-label="Category">Invitation for abstract submission</td>
-                    <td data-label="Date">12th Dec, 2023</td>
+                    <td data-label="Date"> <b>12th Dec, 2023</b></td>
                 </tr>
                 <tr>
                     <td scope="row" data-label="Category">
@@ -297,31 +302,32 @@
 
     <section class="cta">
         <h1>To know more<br />Download the Conference Brochure</h1>
-        <a href="https://drive.google.com/file/d/1ZlXnNGXRZteV-qnAkj6qegRzn_IzUhEg/view?usp=sharing"
-            class="hero-btn">DOWNLOAD</a>
+        <a href="https://drive.google.com/file/d/1ZlXnNGXRZteV-qnAkj6qegRzn_IzUhEg/view?usp=sharing" target="_blank"
+            rel="noopener" class="hero-btn">DOWNLOAD</a>
     </section>
 
     <!-- Footer -->
 
     <footer class="footer">
-        <h4>About Us</h4>
+        <h3>CONTACT DETAILS</h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam
-            voluptatum vero nisi magnam eius ex voluptatibus? <br />Natus nobis,
-            perferendis error dolorum repellendus corporis debitis nisi incidunt
-            alias officiis non!
+            <b>Organizing Secretaries</b> <br />
+            International Conference on Novelties in Geotechnical Engineering (ICNGE
+            2024) <br />
+            Mobile: +91 9061996111, 8281572938 <br />
+            Email ID: icnge2024@gmail.com <br />
         </p>
 
         <div class="icons">
-            <a href=""> <i class="fa fa-facebook"></i></a>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <a href="https://www.facebook.com/scms.sset/"> <i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ssetinsta/"><i class="fa fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/company/scms-school-of-engineering-and-technology"><i
+                    class="fa fa-linkedin"></i></a>
         </div>
 
         <button onclick="topFunction()" id="myBtn" title="Go to top">⬆️</button>
 
-        <p>Made with <i class="fa fa-heart"></i> by CSE'24</p>
+        <!-- <p>Made with <i class="fa fa-heart"></i> by CSE'24</p> -->
 
         <a id="button"></a>
     </footer>
@@ -344,10 +350,15 @@
         let mybutton = document.getElementById("myBtn");
 
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
+        window.onscroll = function () {
+            scrollFunction();
+        };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
                 mybutton.style.display = "block";
             } else {
                 mybutton.style.display = "none";
@@ -360,7 +371,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
 </body>
 
 </html>

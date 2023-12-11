@@ -80,24 +80,31 @@
         </div>
     </section>
 
+    <br><br><br><br><br>
     <!-- Footer -->
-    <section class="footer">
-        <h4>About Us</h4>
+    <footer class="footer">
+        <h3>CONTACT DETAILS</h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam
-            voluptatum vero nisi magnam eius ex voluptatibus? <br />Natus nobis,
-            perferendis error dolorum repellendus corporis debitis nisi incidunt
-            alias officiis non!
+            <b>Organizing Secretaries</b> <br />
+            International Conference on Novelties in Geotechnical Engineering (ICNGE
+            2024) <br />
+            Mobile: +91 9061996111, 8281572938 <br />
+            Email ID: icnge2024@gmail.com <br />
         </p>
 
         <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-linkedin"></i>
+            <a href="https://www.facebook.com/scms.sset/"> <i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ssetinsta/"><i class="fa fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/company/scms-school-of-engineering-and-technology"><i
+                    class="fa fa-linkedin"></i></a>
         </div>
-        <p>Made with <i class="fa fa-heart"></i> by CSE'24</p>
-    </section>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">⬆️</button>
+
+        <!-- <p>Made with <i class="fa fa-heart"></i> by CSE'24</p> -->
+
+        <a id="button"></a>
+    </footer>
 
     <!-- -------JS for Menu Toggle----------->
     <script>
@@ -109,6 +116,33 @@
 
         function hideMenu() {
             navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 </body>
