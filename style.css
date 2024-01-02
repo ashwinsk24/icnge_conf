@@ -542,6 +542,7 @@ table th {
     color: inherit;
     margin: 0;
   }
+}
 
   .dismiss {
     position: absolute;
@@ -551,4 +552,4 @@ table th {
     line-height: 0.75;
     color: inherit;
   }
-}
+
