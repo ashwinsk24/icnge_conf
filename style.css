@@ -556,3 +556,28 @@ table th {
     color: inherit;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .bar {
+    position: relative;
+    top: 0;
+    padding: 0.5em;
+    width: 100%;
+    font-size: 0.9em;
+    p,
+    a {
+      color: inherit;
+      margin: 0;
+    }
+
+    a[href*="http"] {
+      text-decoration: underline;
+    }
+
+    .dismiss {
+      top: 0.5em;
+      right: 0.5em;
+      font-size: 1.5em;
+    }
+  }
+}
