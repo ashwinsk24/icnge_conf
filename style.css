@@ -542,7 +542,10 @@ table th {
     color: inherit;
     margin: 0;
   }
-}
+
+  a[href*="http"] {
+    text-decoration: underline;
+  }
 
   .dismiss {
     position: absolute;
@@ -552,4 +555,4 @@ table th {
     line-height: 0.75;
     color: inherit;
   }
-
+}
